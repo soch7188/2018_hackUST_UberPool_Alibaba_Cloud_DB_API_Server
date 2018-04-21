@@ -6,7 +6,7 @@ const
 
 let router = express.Router();
 
-router.post('/create_ride', rideService.createRide());
+router.post('/create_ride', rideService.createRide);
 // router.get('/get_order_items', rideService.getOrderItems);
 
 module.exports = router;

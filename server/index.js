@@ -12,7 +12,7 @@ const
 	express = require('express'),
 	bodyParser = require('body-parser'),
 	syncDatabase = require('./database'),
-	morgan = require('morgan')
+	morgan = require('morgan');
 
 module.exports = function() {
 	let
